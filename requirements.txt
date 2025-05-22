@@ -1,0 +1,26 @@
+# Core dependencies
+numpy>=1.21.0
+requests>=2.25.0
+pathlib2>=2.3.0  # For older Python versions
+
+# MLX dependencies (for LoRA training)
+# mlx>=0.0.1  # Uncomment if using MLX
+# mlx-examples  # Uncomment if using MLX examples
+
+# Data processing
+textblob>=0.15.0
+pandas>=1.3.0  # For stock analysis
+
+# AI/API clients
+tenacity>=8.0.0  # For retry logic
+ollama>=0.1.0  # For Ollama integration
+
+# Optional dependencies for specific features
+# yfinance>=0.1.0  # For stock data (uncomment if needed)
+# jupyter>=1.0.0  # For notebook processing
+# psutil>=5.8.0  # For system monitoring in vision tools
+
+# Development dependencies
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0
